@@ -1,0 +1,93 @@
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+    nav {
+        background-color: #273b5c;
+        padding: 24px 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+
+        .rightSide {
+            display: flex;
+            gap: 70px;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+                align-items: center;
+                // display: none;
+
+                li {
+                    a {
+                        color: white;
+                        font-size: 16px;
+                        font-family: "Rubik", sans-serif;
+                        font-weight: 700;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .leftSide {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            font-family: "Rubik", sans-serif;
+            color: white;
+
+            button {
+                color: white;
+                background-color: #f15b43;
+                padding: 22px 20px;
+                border: none;
+                transition: all 0.3s ease-out 0s;
+                &:hover {
+                    color: white;
+                    border: 2px solid white;
+                    background-color: transparent;
+                }
+
+                i {
+                    padding-right: 6px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .burgermenu {
+        background-color: gray;
+        display: none;
+        width: 98%;
+        margin: 0 auto;
+        padding: 10px 10px;
+        z-index: 1;
+        top: -9px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .rightSide {
+        ul {
+            display: none !important;
+        }
+    }
+}
+@media (max-width: 900px) {
+    header {
+        .burgermenu {
+            position: relative;
+            top: -8px;
+            display: block;
+            z-index: 1;
+            justify-content: end;
+        }
+    }
+}

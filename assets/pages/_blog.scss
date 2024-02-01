@@ -1,0 +1,202 @@
+#blog {
+    background-image: url("/assets/images/hand.webp");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 58vh;
+}
+
+#category {
+    padding: 100px 0 30px 0;
+    .row {
+        .col8 {
+            .blog1 {
+                margin-bottom: 35px;
+                .blogimage {
+                    img {
+                        width: 100%;
+                    }
+                }
+                .blogbody {
+                    padding: 43px 37px;
+                    box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+                    h2 {
+                        font-family: "Jost", sans-serif;
+                        font-weight: 600;
+
+                        &:hover {
+                            color: #65c9bb;
+                            cursor: pointer;
+                        }
+                    }
+
+                    ul {
+                        display: flex;
+                        gap: 7px;
+                        padding: 0;
+                        color: #999999;
+
+                        li {
+                            a {
+                                text-decoration: none;
+                                color: #777777;
+                            }
+                        }
+                    }
+
+                    p {
+                        color: #777777;
+                        font-family: "Rubik", sans-serif;
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .col4 {
+            .sidebars {
+                .input-group {
+                    background: #fbf9ff;
+                    padding: 30px;
+                    margin-bottom: 30px;
+                }
+
+                .sideFirst {
+                    background: #fbf9ff;
+                    padding: 30px;
+
+                    h3 {
+                        color: #777777;
+                        border-bottom: 1px solid #f0e9ff;
+                        font-size: 20px;
+                        margin-bottom: 18px;
+                        padding-bottom: 23px;
+                    }
+                    ul {
+                        padding: 0;
+
+                        li {
+                            list-style: none;
+                            border-bottom: 1px solid #f0e9ff;
+                            transition: all 0.3s ease 0s;
+                            padding-bottom: 12px;
+
+                            a {
+                                text-decoration: none;
+                                color: #777777;
+                            }
+                        }
+                    }
+                }
+
+                .sideSecond {
+                    background: #fbf9ff;
+                    padding: 30px;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+
+                    .sideItem {
+                        display: flex;
+                        gap: 7px;
+                        margin-bottom: 10px;
+                        .sideText {
+                            align-self: center;
+                            padding-left: 10px;
+                            a {
+                                text-decoration: none;
+                                color: black;
+                            }
+
+                            p {
+                                color: #777777;
+                            }
+                        }
+                    }
+                }
+
+                .sideThird {
+                    background: #fbf9ff;
+                    padding: 30px;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    h3 {
+                        color: black;
+                        border-bottom: 1px solid #f0e9ff;
+                        font-size: 20px;
+                        margin-bottom: 18px;
+                        padding-bottom: 23px;
+                    }
+
+                    ul {
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 10px;
+
+                        li {
+                            a {
+                                text-decoration: none;
+                                color: #777777;
+                                border: 1px solid #999999;
+                                padding: 3px 16px;
+                            }
+                        }
+                    }
+                }
+
+                .sideFourth {
+                    background: #fbf9ff;
+                    padding: 30px;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+
+                    .feeds {
+                        padding: 10px;
+
+                        img {
+                            padding: 16px 6px;
+                            cursor: pointer;
+                        }
+                    }
+
+                    h3 {
+                        color: #777777;
+                        border-bottom: 1px solid #f0e9ff;
+                        font-size: 20px;
+                        margin-bottom: 18px;
+                        padding-bottom: 23px;
+                    }
+                }
+
+                .sideFifth {
+                    background: #fbf9ff;
+                    padding: 30px;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 13px;
+
+                    input {
+                        padding: 13px;
+                        border: 0.5px solid #999999;
+                        // border-color: #777777;
+                    }
+
+                    button {
+                        padding: 13px;
+                        border: 1px solid #65c9bb;
+                        font-family: "Jost", sans-serif;
+                        color: #65c9bb;
+                        background-color: white;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}

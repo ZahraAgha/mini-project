@@ -1,0 +1,271 @@
+#first {
+    position: relative;
+    background-image: url(/assets/images/h1_hero1.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    .contentfirst {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 30%;
+        margin-left: 44px;
+
+        h1 {
+            font-size: 70px;
+            font-family: "Jost", sans-serif;
+            letter-spacing: -3px;
+            line-height: 1;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: "Rubik", sans-serif;
+            font-weight: 400;
+            margin-bottom: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 766px) {
+    #first {
+        .contentfirst {
+            width: 47%;
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.homepage {
+    width: 100%;
+    // height: 100vh;
+    background-color: #fcf2eb;
+    display: flex;
+    align-items: center;
+
+    .second {
+        display: flex;
+        align-items: center;
+
+        .contentright {
+            display: flex;
+            flex-direction: column;
+            padding-left: 30px;
+
+            span {
+                color: #65c9bb;
+                font-family: "Open Sans", sans-serif;
+                font-size: 17px;
+                font-weight: 800;
+                display: inline-block;
+            }
+
+            h3 {
+                font-size: 48px;
+                font-family: "Jost", sans-serif;
+                font-weight: 600;
+                color: #273b5c;
+                line-height: 1;
+                margin-top: 16px;
+            }
+            p {
+                font-size: 16px;
+                font-family: "Rubik", sans-serif;
+                font-weight: 600;
+                margin-top: 22px;
+                color: #777777;
+                line-height: 22px;
+            }
+        }
+
+        .imageleft {
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+// #homepage {
+//     width: 100%;
+//     .second {
+//         align-items: center;
+//         .col-6 {
+//             .about_left {
+//                 span {
+//                     color: #65c9bb;
+//                     font-family: "Open Sans", sans-serif;
+//                     font-size: 17px;
+//                     font-weight: 800;
+//                     display: inline-block;
+//                 }
+
+//                 h3 {
+//                     font-size: 48px;
+//                     font-family: "Jost", sans-serif;
+//                     font-weight: 600;
+//                     color: #273b5c;
+//                     line-height: 1;
+//                     margin-top: 16px;
+//                 }
+//                 p {
+//                     font-size: 16px;
+//                     font-family: "Rubik", sans-serif;
+//                     font-weight: 600;
+//                     margin-top: 22px;
+//                     color: #777777;
+//                     line-height: 22px;
+//                 }
+//             }
+//         }
+
+//         .imageleft {
+//             img {
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//         }
+//     }
+// }
+
+#fourth {
+    width: 100%;
+    // height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .row {
+        margin: 35px 0 0 0;
+
+        .card-item {
+            padding-bottom: 4rem; //?
+
+            .card {
+                background-color: #f4f2f1;
+                .cardtop {
+                    a {
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+                .cardbody {
+                    margin-top: 37px;
+                    h3 {
+                        color: #273b5c;
+                        font-family: "Jost", sans-serif;
+                        font-weight: 700;
+                        transition: all 0.3s ease-out 0s;
+                        &:hover {
+                            color: #ff3f4d;
+                            cursor: pointer;
+                        }
+                    }
+
+                    p {
+                        color: #777777;
+                        font-family: "Rubik", sans-serif;
+                        font-weight: 600;
+                    }
+                }
+
+                .cardfooter {
+                    padding: 19px 18px 20px 29px;
+
+                    h6 {
+                        font-family: "Jost", sans-serif;
+                        font-weight: 600;
+                        color: #273b5c;
+                    }
+
+                    span {
+                        color: #65c9bb;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// #fifth {
+//     width: 100%;
+
+//     .row {
+//         .col-6 {
+//             .fifthimage {
+//                 img {
+//                     width: 100%;
+//                     height: 100%;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+#sixth {
+    margin-top: 25px;
+    background-image: url("/assets/images/section-bg1.jpg.webp");
+    background-attachment: fixed;
+    width: 100%;
+    height: max-content;
+    color: #fcf2eb;
+
+    .text-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            font-size: 18px;
+            font-family: "Jost", sans-serif;
+            font-weight: 600;
+        }
+
+        .one {
+            font-size: 44px;
+            font-family: "Jost", sans-serif;
+            font-weight: 600;
+        }
+
+        .two {
+            font-family: "Rubik", sans-serif;
+            font-weight: 600;
+        }
+    }
+}
+
+#seventh {
+    .home-demo {
+        .item {
+            background: white;
+
+            h2 {
+                color: #fff;
+                text-align: center;
+                padding: 5rem 0;
+                margin: 0;
+                font-style: italic;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+#eight {
+    iframe {
+        width: 100%;
+    }
+}
